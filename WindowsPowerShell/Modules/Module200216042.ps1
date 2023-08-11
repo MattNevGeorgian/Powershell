@@ -125,4 +125,6 @@
 
 $myNetworkObjects | Format-Table Name, ConnectionName, IPAddress, Gateway, "Speed(Mbps)"
     }
-#Export-ModuleMember -Function 'SystemReport'
+}
+
+Export-ModuleMember -Function 'SystemReport'
